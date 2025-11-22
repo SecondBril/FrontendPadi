@@ -2,7 +2,7 @@ import React from 'react';
 
 const Loading: React.FC = () => {
     return (
-        <div className="bg-gray-100 text-gray-900 flex min-h-screen flex-col items-center justify-center font-[Inter] fixed inset-0 z-50">
+        <div className="bg-gray-100 text-gray-900 flex min-h-screen flex-col items-center justify-center   fixed inset-0 z-50">
             <div className="flex flex-col items-center justify-center gap-4">
                 {/* Spinner - diubah ke hijau */}
                 <svg 

@@ -279,7 +279,7 @@ const AdminLayout = ({ children }: { children: React.ReactNode }) => {
     }, [pathname]);
 
     return (
-        <div className="flex h-screen bg-gray-100 font-[Inter]">
+        <div className="flex h-screen bg-gray-100  ">
             {/* Sidebar */}
             <Sidebar 
                 sidebarOpen={sidebarOpen} 

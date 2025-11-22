@@ -1,16 +1,17 @@
+/* 1. IMPORT FONT POPPINS DARI GOOGLE FONTS */
+/* Letakkan ini di baris paling atas agar dimuat duluan */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 @import "tailwindcss";
 @import "leaflet/dist/leaflet.css";
 
 @layer base {
   :root {
-    /* 1. Warna dasar dan font */
-    /* Diperbaiki: font-Inter diubah menjadi font-['Inter'] agar sintaksnya valid */
-    @apply bg-[rgba(255,255,255,0.87)] font-['Inter'];
+    /* 2. UBAH FONT DISINI */
+    /* font-['Inter'] diganti menjadi font-['Poppins'] */
+    @apply bg-[rgba(255,255,255,0.87)] font-['Poppins'];
     
-    /* 2. Tambahkan beberapa 'cahaya' (gradient) di beberapa titik.
-       - Setiap 'radial-gradient(...)' dipisahkan oleh koma.
-       - Spasi di dalam sintaks (seperti 'at 15% 20%') diganti dengan '_'.
-    */
+    /* Gradient background tetap sama */
     @apply bg-[radial-gradient(circle_at_15%_20%,rgba(76,175,80,0.1),transparent_30%),radial-gradient(circle_at_85%_30%,rgba(76,175,80,0.1),transparent_30%),radial-gradient(circle_at_20%_80%,rgba(76,175,80,0.1),transparent_30%)] 
            bg-no-repeat;
   }

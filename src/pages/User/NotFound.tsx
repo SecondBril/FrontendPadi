@@ -11,7 +11,7 @@ const SearchIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
 
 const NotFound: React.FC = () => {
     return (
-        <div className="bg-gray-100 text-gray-900 flex min-h-screen flex-col items-center pt-16 sm:justify-center sm:pt-0 font-[Inter]">
+        <div className="bg-gray-100 text-gray-900 flex min-h-screen flex-col items-center pt-16 sm:justify-center sm:pt-0  ">
             <div className="relative w-full max-w-lg">
                 {/* Gradient separator line - changed to green */}
                 <div className="relative -mb-px h-px w-full bg-gradient-to-r from-transparent via-green-300 to-transparent"></div>
